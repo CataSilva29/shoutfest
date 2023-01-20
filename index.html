@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOUT!Fest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contendor contenido-header">
+            <h1 class="logo">SHOUT!<span>Fest</span></h1>
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#tickets">Tickets</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>SHOUT! <span>Fest</span></h2>
+                <p>Enero 2023, Rengo, Chile.</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+            </picture>
+        </div>
+        <div class="contenido-festival">
+            <h2>SHOUT! Fest por primera vez en Chile</h2>
+            <p>El 20 de enero de 2023 llega a nuestro país el SHOUT!Fest, un festival que promete ser inolvidable para los seguidores del rock y del pop punk; pues cuenta con una parrilla alucinante de artistas de alto calibre como: Blink-182, Paramore, My Chemical Romance, 30 Seconds To Mars, All Time Low, y muchos más. </p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup lineup-fondo">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 20</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario red bg-red">
+                <p class="nombre-escenario">CRUSH! Stage</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>My Chemical Romance</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Bring Me The Horizon</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Taking Back Sunday</span>
+                    </li>
+                    <li>
+                        19:00 | <span>AFI</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Pierce The Veil</span>
+                    </li>
+                    <li>
+                        17:00 | <span>30 Seconds to Mars</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+            <div class="escenario aqua bg-aqua">
+                <p class="nombre-escenario">SHOUT! Stage</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Paramore</span>
+                    </li>
+                    <li>
+                        22:00 | <span>A Day To Remember</span>
+                    </li>
+                    <li>
+                        20:00 | <span>The Used</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Underoath</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Alkaline Trio</span>
+                    </li>
+                    <li>
+                        17:00 | <span>The Story So Far</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+        </div> <!--.escenarios-contenedor-->
+        <p class="dia">Sábado 21</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario red bg-red">
+                <p class="nombre-escenario">CRUSH! Stage</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Blink-182</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Rise Against</span>
+                    </li>
+                    <li>
+                        20:00 | <span>All Time Low</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Yellow Card</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>MXPX</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Simple Plan</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+            <div class="escenario aqua bg-aqua">
+                <p class="nombre-escenario">SHOUT! Stage</p>
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Green Day</span>
+                    </li>
+                    <li>
+                        22:00 | <span>The Academy is...</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Relient K</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Less Than Jake</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>The Offspring</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Good Charlote</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+        </div> <!--.escenarios-contenedor-->
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="tickets" class="boletos bg-morado">
+        <h3>Tickets</h3>
+        <div class="contenedor contenedor-boletos">
+            <div class="diario pase">
+                <p class="pase-dia">Pase Diario</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Acceso a Patio de Comida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$80.000</p>
+                </footer>
+            </div>
+            <div class="premium pase">
+                <p class="pase-dia">Pase VIP 2 días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Meet & Greet</li>
+                        <li>Packaging Lounge</li>
+                        <li>Servicio gratuito Patio de Comida</li>
+                        <li>Baños Exclusivos</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$200.000</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>SHOUT!Fest. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+
+</body>
+</html>
